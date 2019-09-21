@@ -4,12 +4,11 @@
 
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 34px;
   color: #777;
   background-color: #0a192f;
-  /* background: url("../images/wavegrid.png"); */
+
 }
 
 .social {
@@ -18,7 +17,7 @@ body {
 }
 
 .navbar-brand {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 30px;
   line-height: 80px;
   font-weight: 700;
@@ -27,7 +26,6 @@ body {
   border-left: px solid #efefef;
 
 }
-
 
 .container {
   width: 100%;
@@ -48,6 +46,7 @@ body {
   padding-right: 10px;
   padding: 20px;
   line-height: -20px;
+  font-family: 'Lato', sans-serif;
   
 }
 
@@ -73,15 +72,14 @@ body {
 #logo {
   float: left;
   width: 300px;
-  height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  height: 80px;
   font-size: 30px;
   font-weight: 700;
-  line-height: 90px;
+  line-height: 80px;
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #333f58;
   margin-left: 142px;
 }
 
@@ -91,6 +89,7 @@ h1 {
   line-height: 49px;
   border-bottom: 3px solid #ddd;
   margin-bottom: 20px;
+  
   }
 
 h2 {
@@ -103,9 +102,9 @@ h2 {
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #333f58;
 }
 
 h2,
@@ -118,7 +117,8 @@ footer {
   clear: both;
   font-size: 12px;
   color: #fff;
-  color: #ccc;
+  color: #333f58;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   background: #666;
   border-top: 8px solid #4aaaa5;
@@ -128,14 +128,15 @@ footer {
   border-bottom: 2px solid #ddd;
   padding-right: 179px;
   background-color: #172a45;
+  font-family: 'Lato', sans-serif;
   
 
 }
 
 .nav-link {
   border-right: 1px solid #efefef;
-  padding-left: 15px;
-  margin-left: 15px;
+  padding-left: 0px;
+  margin-left: 0px;
   line-height: 18px;
   
 }
@@ -242,10 +243,12 @@ fieldset {
 }
 
 legend {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  
   font-weight: 700;
-  color: #4aaaa5;
   font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: #333f58;
+
 }
 
 @media screen and (max-width: 960px) {
@@ -505,7 +508,7 @@ legend {
       font-size: 18px;
       line-height: 34px;
       color: #777;
-      /* background: url("../../images/wavegrid.png"); */
+
   }
   
   .social {
@@ -649,339 +652,4 @@ legend {
       border: 2px solid #ddd;
       padding-top: 20px;
   }
-  
-  /*Porfolio*/
-  #mainBody {
-      max-width: 650px;
-      width: 100%;
-      padding: 30px;
-      margin: 0 0 40px;
-      background-color: #fff;
-      border: 1px solid #ddd;
-      margin-right: 35px;
-      margin-top: auto;
-  }
-  
-  #imageP {
-      height: 200px;
-      width: 262px;
-      margin-bottom: 20px;
-  }
-  
-  
-  #bodyContent {
-      background: #fff;
-      margin: 1px;
-      float: left;
-      margin-bottom: 50px;
-      padding-bottom: 15px;
-      padding-right: 40px;
-      padding-left: 40px;
-      border: 2px solid #ddd;
-      margin-top: 2px;
-  }
-  
-  .label {
-      position: absolute;
-      bottom: 20px;
-      left: 15px;
-      height: 60px;
-      line-height: 60px;
-      width: calc(100% - 30px);
-      text-align: center;
-      color: white;
-      font-size: 1.2em;
-      background-color: rgba(74, 170, 165, .7);
-  }
-  
-  #mainContent {
-      padding-top: 20px;
-  
-  }
-  
-  #pSidebar {
-      float: left;
-      width: 100%;
-      max-width: 270px;
-      padding: 32px;
-      margin-bottom: auto;
-      background: #fff;
-      border: 2px solid #ddd;
-      text-decoration: none;
-      margin-top: -49px;
-      margin-left: 48px;
-  }
-  
-  .pContainer {
-      width: 100%;
-      max-width: 960px;
-      margin: 0 auto;
-      clear: both;
-      padding-top: 48px;
-      margin-bottom: 50px;
-      padding-left: 1px;
-      
-  }
-  
-  fieldset {
-      width: 800px;
-  }
-  
-  .btn {
-      margin-right: 50px;
-  }
-  
-  legend {
-      font-family: Georgia, Times, "Times New Roman", serif;
-      font-weight: 700;
-      color: #4aaaa5;
-      font-size: 30px;
-  }
-
-}
-
-@media screen and (max-width: 640px) {
-  * {
-      box-sizing: border-box;
-  }
-  
-  
-  body {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 18px;
-      line-height: 34px;
-      color: #777;
-      /* background: url("../../images/wavegrid.png"); */
-  }
-  
-  .social {
-      width: 62px;
-      height: 62px;
-  }
-  
-  .navbar-brand {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 30px;
-      line-height: 80px;
-      font-weight: 700;
-      margin-top: -10px;
-      margin-bottom: -10px;
-      border-left: px solid #efefef;
-  }
-  
-  
-  .container {
-      width: 100%;
-      max-width: 960px;
-      margin: 0 auto;
-      clear: both;
-      padding-top: 50px;
-      margin-bottom: 50px;
-      
-  }
-  
-  #about {
-      background-color: white;
-      margin-right: auto;
-      border: 2px solid #ddd;
-      text-align: left;
-      padding-top: 30px;
-      padding-right: 10px;
-      padding: 20px;
-      line-height: -20px;
-      
-  }
-  
-  #Image {
-      float: left;
-      width: 600px;
-      height: auto;
-      margin-top: 10px;
-      margin-right: 25px;
-  }
-  
-  #sidebar {
-      float: right;
-      width: 100%;
-      max-width: 270px;
-      padding: 32px;
-      margin-bottom: auto;
-      background: #fff;
-      border: 2px solid #ddd;
-      text-decoration: none;
-  }
-  
-  #logo {
-      float: left;
-      width: 250px;
-      height: 90px;
-      font-family: Georgia, Times, "Times New Roman", serif;
-      font-size: 30px;
-      font-weight: 700;
-      line-height: 90px;
-      color: #fff;
-      text-align: center;
-      text-decoration: none;
-      background: #4aaaa5;
-      margin-left: 142px;
-    }
-  
-    h1 {
-      padding-bottom: 20px;
-      font-size: 30px;
-      line-height: 49px;
-      border-bottom: 3px solid #ddd;
-      margin-bottom: 20px;
-      }
-  
-    h2 {
-        border-bottom: 2px solid #ddd;
-        margin-bottom: 15px;
-        line-height: 60px;
-        margin-top: -20px;
-        }
-  
-    h1,
-    h2,
-    h3 {
-      font-family: Georgia, Times, "Times New Roman", serif;
-      font-weight: 700;
-      color: #4aaaa5;
-    }
-  
-    h2,
-    h3 {
-      font-size: 22px;
-    }
-  
-    footer {
-      padding: 5px 0;
-      clear: both;
-      font-size: 12px;
-      color: #fff;
-      color: #ccc;
-      text-align: center;
-      background: #666;
-      border-top: 8px solid #4aaaa5;
-  }
-  
-  .navbar {
-      border-bottom: 2px solid #ddd;
-      padding-right: 179px;
-  }
-  
-  .nav-link {
-      border-right: 1px solid #efefef;
-      padding-left: 15px;
-      margin-left: 15px;
-      line-height: 18px;
-  }
-  
-  
-  .btn {
-      margin-right: 15px;
-  }
-  
-  .text-center-left {
-      margin-right: 25px;
-      font-weight: 700;
-  }
-  
-  #contact {
-      background-color: white;
-      margin-right: 50px;
-      margin-bottom: 150px;
-      padding-right: 100px;
-      border: 2px solid #ddd;
-      padding-top: 20px;
-  }
-  
-  /*Porfolio*/
-  #mainBody {
-      max-width: 650px;
-      width: 100%;
-      padding: 30px;
-      margin: 0 0 40px;
-      background-color: #fff;
-      border: 1px solid #ddd;
-      margin-right: 35px;
-      margin-top: auto;
-  }
-  
-  #imageP {
-      height: 200px;
-      width: 262px;
-      margin-bottom: 20px;
-  }
-  
-  
-  #bodyContent {
-      background: #fff;
-      margin: 1px;
-      float: left;
-      margin-bottom: 50px;
-      padding-bottom: 15px;
-      padding-right: 40px;
-      padding-left: 40px;
-      border: 2px solid #ddd;
-      margin-top: 2px;
-  }
-  
-  .label {
-      position: absolute;
-      bottom: 20px;
-      left: 15px;
-      height: 60px;
-      line-height: 60px;
-      width: calc(100% - 30px);
-      text-align: center;
-      color: white;
-      font-size: 1.2em;
-      background-color: rgba(74, 170, 165, .7);
-  }
-  
-  #mainContent {
-      padding-top: 20px;
-  
-  }
-  
-  #pSidebar {
-      float: left;
-      width: 100%;
-      max-width: 270px;
-      padding: 32px;
-      margin-bottom: auto;
-      background: #fff;
-      border: 2px solid #ddd;
-      text-decoration: none;
-      margin-top: -49px;
-      margin-left: 48px;
-  }
-  
-  .pContainer {
-      width: 100%;
-      max-width: 960px;
-      margin: 0 auto;
-      clear: both;
-      padding-top: 48px;
-      margin-bottom: 50px;
-      padding-left: 1px;
-      
-  }
-  
-  fieldset {
-      width: 800px;
-  }
-  
-  .btn {
-      margin-right: 50px;
-  }
-  
-  legend {
-      font-family: Georgia, Times, "Times New Roman", serif;
-      font-weight: 700;
-      color: #4aaaa5;
-      font-size: 30px;
-  }
-
 }
