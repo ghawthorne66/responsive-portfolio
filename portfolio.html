@@ -1,28 +1,115 @@
 <!doctype html>
 <html lang="en-us">
-
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio | Greg Hawthorne</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <title>Portfolio | Greg Hawthorne</title>
+      <!--Bootstraps Link-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!--CSS Link-->
+      <link rel="stylesheet" href="assets/css/reset.css">
+      <!--Reset CSS Link-->
+      <link rel="stylesheet" href="assets/css/Style.css">
+      <!--Favicon-->
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <div id="logo"><a href="index.html">Greg Hawthorne</a></div>
-      <nav class="nav">
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <!--Navbar content-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+    <a class="navbar-brand" id="logo" href="index.html">Greg Hawthorne</a>
+    
+    <ul class="nav navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+    </ul>
+</nav>
+<!--Portfolio Grid-->
+<!--Main Container-->
+<div class="pContainer">
+    <div class="col-md-8 col-xs-12" id="bodyContent">
+        <section id="mainContent">
+            <h1>Portfolio</h1>
+            <!--New Row-->
+            <div class="picSection row">
+                <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                    <a href="https://www.google.com"><img src="assets/images/1200x630bb.jpg" alt="Hang Man" id="imageP">
+                    <span class="label">Hang Man</span></a>
+                </div>
+                <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                    <a href="assets/images/technics-q-c-640-480-2.jpg"><img src="assets/images/rpg.png" alt="RPG Game" id="imageP">
+                    <span class="label">RPG Game</span></a>
+                </div>
+            </div>
+            <!--New Row-->
+            <div class="picSection row">
+                <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                    <a href="https://www.google.com"><img src="assets/images/Trivia.png" alt="Trivia Game" id="imageP">
+                    <span class="label">Trivia Game</span></a>
+                </div>
+                <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                    <a href="https://www.google.com"><img src="assets/images/rutgers.png" alt="Rutgers Info" id="imageP">
+                    <span class="label">Rutgers Info</span></a>
+                </div>
+            </div>
+            <!--New Row-->
+            <div class="picSection row">
+                <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                    <a href="https://www.google.com"><img src="assets/images/rpc.png" alt="Rock Paper Scissors" id="imageP">
+                    <span class="label">Rock Paper Scissors</span></a>
+                </div>
+                <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                    <a href="https://www.google.com"><img src="assets/images/music.png" alt="Music" id="imageP">
+                    <span class="label">Music</span></a>
+                </div>
+            </div>
+            <!--New Row-->
+            <div class="picSection row">
+                <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                    <a href="https://www.google.com"><img src="assets/images/favoritefoods.png" alt="Favorite Foods" id="imageP">
+                    <span class="label">Favorite Foods</span></a>
+                </div>
+                <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                    <a href="https://www.google.com"><img src="assets/images/activities.png" alt="Favorite Activities" id="imageP">
+                    <span class="label">Favorite Activities</span></a>
+                </div>
+            </div>
+        </section>
     </div>
-  </header>
+</div>
+        
+            <!-- <div class="row">
+                <a href="https://github.com/amcnulty" class="socialIcon col-4">
+                    <div id="gitHubIconRed"></div>
+                    <div id="gitHubIconBlack"></div>
+                </a>
+                <a id="middleIcon" href="https://www.linkedin.com/in/aaron-mcnulty-64008183/"  class="socialIcon col-4">
+                    <div id="linkedinIconRed"></div>
+                    <div id="linkedinIconBlack"></div>
+                </a>
+                <a href="https://stackoverflow.com/users/8456358/amcnulty88?tab=profile"  class="socialIcon col-4">
+                    <div id="stackIconRed"></div>
+                    <div id="stackIconBlack"></div>
+                </a>
+            </div>
+        </section>
+    </div> -->
+
+
+
+
+
+
+
+
+
 
   <div id="main-container" class="container">
     <section class="main-section portfolio-main">
@@ -44,7 +131,7 @@
         <h3>Trivia Game</h3>
       </div>
       <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+        <img src="assets/images/cards.jpg" alt="Rutgers Info Widget">
 
         <h3>Rutgers Info Widget</h3>
       </div>
